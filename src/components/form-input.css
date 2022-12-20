@@ -1,0 +1,44 @@
+
+
+.FormInputLabel {
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    pointer-events: none;
+}
+
+.Input{
+
+    background: none;
+    background-color: white;
+    color:grey;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+
+
+} 
+.Input:focus {
+      outline: none;
+    }
+
+    .Input:focus ~ .FormInputLabel {
+        top: -14px;
+        font-size: 12px;
+        color: black
+    }
+
+.Group{
+    position: relative;
+    margin: 45px 0;
+}
+
+
+  input[type='password'] {
+    letter-spacing: 0.3em;
+  }
+
